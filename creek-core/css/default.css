@@ -673,6 +673,13 @@ span.freeshipping {
     border: 0px solid #003399;
     background-color: transparent;
 }
+#home > .products-section .product-item .img {
+    max-height: 425px;
+	padding-top:425px;
+}
+#modTopSellers .product-item {
+    margin-bottom: 20px;
+}
 .product-item .img a {
     display: block;
 }
@@ -763,7 +770,7 @@ span.freeshipping {
 }
 
 .home-page-content .category-footer {
-    padding: 50px 0px;
+    padding: 10px 0px;
 }
 .home-page-content .category-footer h3 {
     font-family: 'Playfair Display', serif;
@@ -1156,4 +1163,9 @@ body.view-cart .navbar-fixed-top {
 }
 body.view-cart .header-push {
 	display: none !important;
+}
+@media(min-width: 768px) {
+    .revealOnScroll {
+        opacity:0;
+    }
 }
