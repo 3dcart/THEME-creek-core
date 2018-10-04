@@ -513,7 +513,7 @@ ul.extrapages li a {
 .btn-default.mailinglist-submit:focus {
     border: none;
     background-color: transparent !important;
-    color: #ff0036 !important;
+    opacity: 0.7;
 }
 .mailinglist-response {
     display: none;
