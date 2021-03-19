@@ -10,6 +10,21 @@ body {
   height: 100%;
   flex-direction: column;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .page-content {
   flex: 1 0 auto;
 }
@@ -764,7 +779,7 @@ span.freeshipping {
     background-color: #fff;
     padding: 30px 0 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     text-align: center;
     color: #091f35;
     font-size: 18px;
