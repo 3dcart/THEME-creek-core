@@ -25,6 +25,9 @@ position:static;
 width:auto;
 height:auto;
 }
+.header-push{
+	display:table;
+}
 .page-content {
   flex: 1 0 auto;
 }
