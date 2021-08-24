@@ -169,7 +169,9 @@ jQuery(function ($) {
 });
 
 function resizeHeader() {
-    $(".header-push").height($(".navbar-fixed-top").height());
+	var headerHeight = $('.navbar-fixed-top').outerHeight();
+   // $(".header-push").height($(".navbar-fixed-top").height());
+	$(".header-push").css('min-height', headerHeight);
 }
 $(document).ready(resizeHeader);
 $(window).resize(resizeHeader);
